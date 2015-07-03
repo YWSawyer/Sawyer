@@ -1,0 +1,50 @@
+//
+// Prefix header for all source files of the 'ICViewPager' target in the 'ICViewPager' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+#define CHFirstValueChange @"CHFirstValueChange"
+
+#define CHTableViewControllerDidSelected @"CHTableViewControllerDidSelected"
+
+#define TowTableViewContrellerRefreah @"TowTableViewContrellerRefreah"
+
+#define FindViewControllerSelectAction @"FindViewControllerSelectAction"
+
+#define SubViewControllerReload @"SubViewControllerReload"
+
+#define SubViewControllerSeclected @"SubViewControllerSeclected"
+
+#define DownAreaControllerRefreshData @"DownAreaControllerRefreshData"
+
+#define DownPriceChangeValue @"DownPriceChangeValue"
+#define DownPriceControllerPush @"DownPriceControllerPush"
+
+#define MoControllerValueChange @"MoControllerValueChange"
+
+#define MoControllerChange111 @"MoControllerChange111"
+
+#define SouCarModelTotal @"SouCarModelTotal"
+#define PushTableView @"PushTableView"
+
+#define subSubTabRefresh @"subSubTabRefresh"
+
+#define FindcarIsShowing @"FindcarIsShowing"
+
+#define AreaChange @"AreaChange"
+
+#define TukuTab @"TukuTab"
+
+#define TuShow @"TuShow"
+
+#define gao 200
+
